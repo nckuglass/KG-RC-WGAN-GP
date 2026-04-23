@@ -1,0 +1,14 @@
+name: NBSGGAN
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - cuda-version=11.8
+  - cudatoolkit=11.8.0
+  - cudnn=8.9.7.29
+  - pip=25.3
+  - pip:
+    - tensorflow==2.20.0
+    - numpy
+    - pillow
