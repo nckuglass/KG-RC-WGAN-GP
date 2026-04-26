@@ -59,7 +59,7 @@ def generate_microstructure(model_path: str, target_temp: float, target_time: fl
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Inference CLI for NBSG Microstructure GAN")
     
-    parser.add_argument("--model", type=str, default="Model.pth", 
+    parser.add_argument("--model", type=str, default="Model.keras", 
                         help="Path to the pre-trained model file (.keras)")
     parser.add_argument("--temp", type=float, required=True, 
                         help="Target temperature in Celsius")
