@@ -1,4 +1,4 @@
-This repository contains the inference framework and pretrained weights for a Generative Adversarial Network, specifically developed to simulate and predict the microstructure evolution of Sodium Borosilicate Glass (NBSG) during crystallization.
+This repository contains the inference framework and pretrained weights for a Generative Adversarial Network, specifically developed to simulate and predict the microstructure evolution of sodium borosilicate glass during crystallization.
 
 The uploaded files include:
   1. Model.keras: Trained model (not stored in this repositroy due to the file size limit — see download instructions below)
